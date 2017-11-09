@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">L04Notifications</string>
+    <string name="strXML_notify_ticker">Notification Ticker</string>
+    <string name="strXML_notify_title">Notification Title</string>
+    <string name="strXML_notify_text">Notification Text</string>
+
+    <string name="strXML_alarm_label">Alarm</string>
+
+</resources>
