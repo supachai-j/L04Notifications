@@ -39,7 +39,7 @@ public class AutoNotifyBroadcastReceiver extends BroadcastReceiver {
                 //clear old noti replace new noti.
                 .setAutoCancel(true)
                 //user clear noti bar true or false
-                .setOngoing(true)
+                .setOngoing(false)
                 .setContentTitle(c.getString(R.string.strXML_notify_title) + " " + current_time)
                 .setContentText(c.getString(R.string.strXML_notify_text) + " " + current_datetime)
                 .build();
